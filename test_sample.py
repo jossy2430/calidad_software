@@ -8,3 +8,6 @@ def test_calcular_hipotenusa_caso1():
 
 def test_calcular_hipotenusa_caso2():
     assert calcular_hipotenusa(8, 15) == 17.0
+
+def test_calcular_hipotenusa_caso3():
+    assert calcular_hipotenusa("5", 15) == 17.0
